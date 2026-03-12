@@ -1,7 +1,7 @@
 {
 	"name": "bot-service",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Service that handles Telegram bot interactions",
 	"main": "dist/main.js",
 	"scripts": {
 		"start:dev": "nodemon",
