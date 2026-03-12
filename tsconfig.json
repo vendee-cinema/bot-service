@@ -5,7 +5,6 @@
 		"paths": {
 			"@/*": ["./src/*"]
 		},
-		"resolvePackageJsonExports": true,
 		"esModuleInterop": true,
 		"isolatedModules": true,
 		"declaration": true,
