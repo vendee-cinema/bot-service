@@ -1,0 +1,31 @@
+{
+	"name": "bot-service",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/main.js",
+	"scripts": {
+		"start:dev": "nodemon",
+		"build": "tsc -p tsconfig.json",
+		"start": "node dist/main.js",
+		"format": "prettier --write \"src/**/*.ts\""
+	},
+	"author": {
+		"name": "@bagdenius",
+		"email": "bagdenius@gmail.com"
+	},
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"@types/node": "^25.5.0",
+		"@vendee-cinema/core": "^1.0.4",
+		"nodemon": "^3.1.14",
+		"prettier": "^3.8.1",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"dotenv": "^17.3.1",
+		"telegraf": "^4.16.3"
+	}
+}
