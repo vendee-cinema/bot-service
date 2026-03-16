@@ -1,5 +1,5 @@
 {
-	"name": "bot-service",
+	"name": "@vendee-cinema/bot-service",
 	"version": "1.0.0",
 	"description": "Service that handles Telegram bot interactions",
 	"main": "dist/main.js",
