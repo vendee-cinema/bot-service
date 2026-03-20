@@ -7,7 +7,7 @@
       "dependencies": {
         "@grpc/grpc-js": "^1.14.3",
         "@grpc/proto-loader": "^0.8.0",
-        "@vendee-cinema/contracts": "^1.0.8",
+        "@vendee-cinema/contracts": "^1.1.14",
         "dotenv": "^17.3.1",
         "telegraf": "^4.16.3",
       },
@@ -109,7 +109,7 @@
 
     "@types/node": ["@types/node@25.5.0", "", { "dependencies": { "undici-types": "~7.18.0" } }, "sha512-jp2P3tQMSxWugkCUKLRPVUpGaL5MVFwF8RDuSRztfwgN1wmqJeMSbKlnEtQqU8UrhTmzEmZdu2I6v2dpp7XIxw=="],
 
-    "@vendee-cinema/contracts": ["@vendee-cinema/contracts@1.0.8", "", { "dependencies": { "@nestjs/microservices": "^11.1.16", "rxjs": "^7.8.2", "ts-proto": "^2.11.4" } }, "sha512-cZaHbYEcNtHWTWLOm70okSb4aFh+JBbMXc9d0tS5YEs+laNI/VfiyY+YKDKJ1GPIzIx4XRWX/8AUdRauF1431w=="],
+    "@vendee-cinema/contracts": ["@vendee-cinema/contracts@1.1.14", "", { "dependencies": { "@nestjs/microservices": "^11.1.16", "rxjs": "^7.8.2", "ts-proto": "^2.11.4" } }, "sha512-+2viZL5t0y+d+lAWgltokLRUgqf00rbWJ0DpWTel43KIlx/s9gd64gBmpq15/zERwOPnYQkfD4jobWj9hJ0cKQ=="],
 
     "@vendee-cinema/core": ["@vendee-cinema/core@1.0.4", "", { "dependencies": { "@trivago/prettier-plugin-sort-imports": "6.0.2" }, "peerDependencies": { "prettier": "^3.8.1" } }, "sha512-Ik86wW9E01v5/4Ko8qkmhHOSGJgjbTQB28KWJ/23sxN0A0dKkR8pQ9V4lcN38py+QbvX4SlgT4DoUNfSbzf3qw=="],
 
