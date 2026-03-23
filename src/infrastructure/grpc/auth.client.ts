@@ -5,7 +5,7 @@ import {
 	AUTH_SERVICE_NAME,
 	AUTH_V1_PACKAGE_NAME,
 	type AuthServiceClient
-} from '@vendee-cinema/contracts/gen/ts/auth'
+} from '@vendee-cinema/contracts/auth'
 
 import { CONFIG } from '@/config'
 

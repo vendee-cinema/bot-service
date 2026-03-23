@@ -1,7 +1,7 @@
 import type {
 	TelegramCompleteRequest,
 	TelegramCompleteResponse
-} from '@vendee-cinema/contracts/gen/ts/auth'
+} from '@vendee-cinema/contracts/auth'
 import type { Telegraf } from 'telegraf'
 
 import { authClient } from '@/infrastructure/grpc/auth.client'
